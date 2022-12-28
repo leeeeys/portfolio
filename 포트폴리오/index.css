@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: #333333;
+}
+ul li{
+    list-style: none;
+    float: left;
+}
+.page{
+    padding-top: 90px;
+}
+header{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    background: #ffffff;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 30px 5% 0;
+}
+.logo{
+    font-size: 30px;
+}
+.categori{
+    font-size: 20px;
+    margin-right: 5%;
+}
+.categori ul li{
+    margin-right: 30px;
+}
+#intro{
+    background: #7dd8f3;
+    height: 1000px;
+}
+.introduce{
+    width: 50%;
+}
+.intro-txt{
+    font-size: 100px;
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 48pt;
+    line-height: 1.4;
+    letter-spacing: 0;
+    text-shadow: 1px 1px 2px rgb(0 0 0 / 40%);
+    top: 45%;
+    color: #f2f2f2;
+}
